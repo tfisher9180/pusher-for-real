@@ -1,0 +1,30 @@
+body {
+	background-color: #181818;
+}
+
+p {
+	font-family: 'Bitstream Vera Sans Mono', 'Consolas', 'Courier', monospace;
+}
+
+#header {
+	position: relative;
+	background-size: cover;
+	background-position: 50%;
+	padding: 5em 0;
+}
+
+#header:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: linear-gradient(transparent -30%, #181818);
+}
+
+.avatar {
+	height: 225px;
+	width: auto;
+}
+
