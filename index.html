@@ -18,49 +18,227 @@
 
 	<body>
 
-		<header id="header" style="background-image: url('./img/banner.jpg');">
+		<div class="masthead mx-auto">
+			<div class="container-fluid">
+				<div class="inner d-flex align-items-center justify-content-between pt-3 pb-3">
+					<img src="./img/pusher-logo.png" class="masthead-brand logo" />
+					<nav class="nav nav-masthead">
+						<a href="#" class="btn btn-primary"><i class="fa fa-spotify"></i>&nbsp;Follow on Spotify</a>
+						<a href="#" class="btn btn-outline-white text-white">Booking Inquiries</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+
+		<header id="header" class="bg-cover-50" style="background-image: url('./img/banner.jpg');">
 			<div class="container">
 				<img src="./img/avatar.jpg" class="avatar rounded-circle d-block mx-auto" />
-				<ul class="list-inline text-center pt-3">
-					<li class="list-inline-item"><a href="#" class="text-white">
-						<span class="fa-stack">
-							<i class="fa fa-circle-thin fa-stack-2x"></i>
-							<i class="fa fa-spotify fa-stack-1x fa-fw"></i>
-						</span>
+				<div class="pt-3 pb-2 text-center">
+					<p class="d-inline-block font-weight-bold text-white underlined">I make shiny colourful music</p>
+					<p class="font-weight-bold color-grey">Music producer based in Toronto, CA</p>
+				</div>
+				<ul class="list-inline text-center pt-3 socials">
+					<li class="list-inline-item"><a href="#" class="d-inline-block text-center rounded-circle p-4">
+						<i class="fa fa-spotify"></i>
 					</a></li>
-					<li class="list-inline-item"><a href="#" class="text-white">
-						<span class="fa-stack">
-							<i class="fa fa-circle-thin fa-stack-2x"></i>
-							<i class="fa fa-bandcamp fa-stack-1x fa-fw"></i>
-						</span>
+					<li class="list-inline-item"><a href="#" class="d-inline-block text-center rounded-circle p-4">
+						<i class="fa fa-instagram"></i>
 					</a></li>
-					<li class="list-inline-item"><a href="#" class="text-white">
-						<span class="fa-stack">
-							<i class="fa fa-circle-thin fa-stack-2x"></i>
-							<i class="fa fa-soundcloud fa-stack-1x fa-fw"></i>
-						</span>
+					<li class="list-inline-item"><a href="#" class="d-inline-block text-center rounded-circle p-4">
+						<i class="fa fa-soundcloud"></i>
 					</a></li>
-					<li class="list-inline-item"><a href="#" class="text-white">
-						<span class="fa-stack">
-							<i class="fa fa-circle-thin fa-stack-2x"></i>
-							<i class="fa fa-facebook fa-stack-1x fa-fw"></i>
-						</span>
+					<li class="list-inline-item"><a href="#" class="d-inline-block text-center rounded-circle p-4">
+						<i class="fa fa-facebook"></i>
 					</a></li>
-					<li class="list-inline-item"><a href="#" class="text-white">
-						<span class="fa-stack">
-							<i class="fa fa-circle-thin fa-stack-2x"></i>
-							<i class="fa fa-twitter fa-stack-1x fa-fw"></i>
-						</span>
+					<li class="list-inline-item"><a href="#" class="d-inline-block text-center rounded-circle p-4">
+						<i class="fa fa-twitter"></i>
 					</a></li>
-					<li class="list-inline-item"><a href="#" class="text-white">
-						<span class="fa-stack">
-							<i class="fa fa-circle-thin fa-stack-2x"></i>
-							<i class="fa fa-youtube fa-stack-1x fa-fw"></i>
-						</span>
+					<li class="list-inline-item"><a href="#" class="d-inline-block text-center rounded-circle p-4">
+						<i class="fa fa-youtube"></i>
 					</a></li>
 				</ul>
 			</div>
 		</header>
+
+		<section id="music">
+			<div class="container">
+				<h1 class="section-title text-white text-center">Latest Music</h1>
+				<div class="row ml-3 mr-3">
+					<div class="col-md-4 p-5">
+						<a href="#" class="d-block music-link">
+							<div class="music-img bg-cover-50 w-100 h-100 rounded-circle" style="background-image: url('./img/shake_down.jpg');"></div>
+						</a>
+						<div class="info-top text-center">
+							<a href="#" class="song-name text-white">Shake Down</a>
+						</div>
+						<div class="info-bottom text-center">
+							<a href="#" class="song-by color-999">Pusher</a> <span class="color-999">ft.</span> <a href="#" class="song-by color-999">Push Push</a>
+						</div>
+						<div class="text-center">
+							<a href="#" class="btn btn-primary text-uppercase">Play</a>
+						</div>
+					</div>
+					<div class="col-md-4 p-5">
+						<a href="#" class="d-block music-link">
+							<div class="music-img bg-cover-50 w-100 h-100 rounded-circle" style="background-image: url('./img/clear.jpg');"></div>
+						</a>
+						<div class="info-top text-center">
+							<a href="#" class="song-name text-white">Clear</a>
+						</div>
+						<div class="info-bottom text-center">
+							<a href="#" class="song-by color-999">Pusher</a> <span class="color-999">ft.</span> <a href="#" class="song-by color-999">Mothica</a>
+						</div>
+						<div class="text-center">
+							<a href="#" class="btn btn-primary text-uppercase">Play</a>
+						</div>
+					</div>
+					<div class="col-md-4 p-5">
+						<a href="#" class="d-block music-link">
+							<div class="music-img bg-cover-50 w-100 h-100 rounded-circle" style="background-image: url('./img/mayweather.jpg');"></div>
+						</a>
+						<div class="info-top text-center">
+							<a href="#" class="song-name text-white">Mayweather</a>
+						</div>
+						<div class="info-bottom text-center">
+							<a href="#" class="song-by color-999">Pusher</a> <span class="color-999">ft.</span> <a href="#" class="song-by color-999">Heckz</a>
+						</div>
+						<div class="text-center">
+							<a href="#" class="btn btn-primary text-uppercase">Play</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="events">
+			<div class="container">
+				<h1 class="section-title text-white text-center">Upcoming Events</h1>
+				<div class="row">
+					<div class="col-md-8 mx-auto">
+						<div id="events-carousel" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#events-carousel" data-slide-to="0" class="active"></li>
+								<li data-target="#events-carousel" data-slide-to="1"></li>
+								<li data-target="#events-carousel" data-slide-to="2"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="carousel-item active w-100">
+									<div class="bg-cover-50 d-block w-100 h-100" style="background-image: url('./img/kilter_pusher.jpg');"></div>
+								</div>
+								<div class="carousel-item w-100">
+									<div class="bg-cover-50 d-block w-100 h-100" style="background-image: url('./img/stereo_live.jpg');"></div>
+								</div>
+								<div class="carousel-item w-100">
+									<div class="bg-cover-50 d-block w-100 h-100" style="background-image: url('./img/broke_la.jpg');"></div>
+								</div>
+							</div>
+							<a href="#events-carousel" class="carousel-control-prev" data-slide="prev">
+								<span class="carousel-control-prev-icon"></span>
+							</a>
+							<a href="#events-carousel" class="carousel-control-next" data-slide="next">
+								<span class="carousel-control-next-icon"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="tour">
+			<div class="container">
+				<h1 class="section-title text-white text-center">Tour Dates</h1>
+				<div class="row">
+					<div class="col-md-8 mx-auto">
+						<table class="table table-striped color-grey">
+							<thead>
+								<th>Date</th>
+								<th>Venue</th>
+								<th>Location</th>
+								<th>Tickets</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>MAR 10</td>
+									<td class="text-white">BUKU Late</td>
+									<td>New Orleans, LA</td>
+									<td><a href="#" class="btn btn-primary">Get Tickets</a></td>
+								</tr>
+								<tr>
+									<td>MAR 11</td>
+									<td class="text-white">BUKU</td>
+									<td >New Orleans, LA</td>
+									<td><a href="#" class="btn btn-primary">Get Tickets</a></td>
+								</tr>
+								<tr>
+									<td>APR06</td>
+									<td class="text-white">Beta</td>
+									<td>Denver, CO</td>
+									<td><a href="#" class="btn btn-primary">Get Tickets</a></td>
+								</tr>
+								<tr>
+									<td>APR 08</td>
+									<td class="text-white">Broke LA</td>
+									<td>Los Angeles, CA</td>
+									<td><a href="#" class="btn btn-primary">Get Tickets</a></td>
+								</tr>
+								<tr>
+									<td>APR 27</td>
+									<td class="text-white">Stereo Live</td>
+									<td>Houston, TX</td>
+									<td><a href="#" class="btn btn-primary">Get Tickets</a></td>
+								</tr>
+								<tr>
+									<td>APR 28</td>
+									<td class="text-white">Rickshaw Stop</td>
+									<td>San Francisco, CA</td>
+									<td><a href="#" class="btn btn-primary">Get Tickets</a></td>
+								</tr>
+								<tr>
+									<td>APR 29</td>
+									<td class="text-white">Bang Bang</td>
+									<td>San Diego, CA</td>
+									<td><a href="#" class="btn btn-primary">Get Tickets</a></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer id="footer" class="pt-3 pb-3">
+			<div class="container-fluid">
+				<div class="row align-items-center">
+					<div class="col-md-6">
+						<img src="./img/pusher-logo.png" class="logo" />
+					</div>
+					<div class="col-md-6 text-right">
+						<ul class="list-inline pt-3 socials">
+							<li class="list-inline-item"><a href="#" class="d-inline-block text-center rounded-circle p-3">
+								<i class="fa fa-spotify"></i>
+							</a></li>
+							<li class="list-inline-item"><a href="#" class="d-inline-block text-center rounded-circle p-3">
+								<i class="fa fa-instagram"></i>
+							</a></li>
+							<li class="list-inline-item"><a href="#" class="d-inline-block text-center rounded-circle p-3">
+								<i class="fa fa-soundcloud"></i>
+							</a></li>
+							<li class="list-inline-item"><a href="#" class="d-inline-block text-center rounded-circle p-3">
+								<i class="fa fa-facebook"></i>
+							</a></li>
+							<li class="list-inline-item"><a href="#" class="d-inline-block text-center rounded-circle p-3">
+								<i class="fa fa-twitter"></i>
+							</a></li>
+							<li class="list-inline-item"><a href="#" class="d-inline-block text-center rounded-circle p-3">
+								<i class="fa fa-youtube"></i>
+							</a></li>
+						</ul>
+						<p>&copy; 2017 All Rights Reserved. Pusher.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
 
 
 
